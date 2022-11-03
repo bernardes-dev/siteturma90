@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/ui-lightness/jquery-ui.css" /> 
+		<script src="http://code.jquery.com/jquery-1.8.3.js"></script> 
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script type="text/javascript" src="../js/Validaform.js"></script>
+
+    <title>Contatos</title>
+</head>
+
+<body>
+    <section class="main">
+        <h2>Contato</h2>
+        <section class="form">
+            <form id="frmContatos">
+
+                <br />
+                <label for="nome">Nome</label>
+                <input type="text" id="txtNome" name="txtNome"  placeholder="Digite seu nome"  tabindex="2"  required>
+                <br>
+
+                <br>
+                <label for="data">Data de nascimento</label>
+                <input type="date" id="txtDataNascimento" name="txtData"  required>
+                <br>
+
+                <br>
+                <label for="cpf">CPF</label>
+                <input type="number" id="nmbNumeroCpf" name="nmbCPF" placeholder="000.000.000-00" required>
+                <br>
+
+                <br>
+                <label for="cep">Cep</label>
+                <input type="number" id="txtCep" name="txtCep" placeholder="00000-000" required>
+                 <a href="#"><img src="../img/search.png" id="btnBuscar" alt="Imagem de busca">Buscar CEP</a>
+                <br>
+
+                <br>
+                <label for="endereco">Endereço</label>
+                <input type="text" id="txtEndereco" name="txtEndereco"  placeholder="Digite seu endereço"  required>
+                <br>
+
+                <br>
+                <label for="bairro">Bairro</label>
+                <input type="text" id="txtBairro" name="txtBairro" placeholder="Digite seu bairro"   required>
+                <br>
+
+                <br>
+                <label for="cidade">Cidade</label>
+                <input type="text" id="txtCidade" name="txtCidade" placeholder="Digite o nome de sua cidade" required>
+                <br>
+
+                <br>
+                <label for="uf">UF</label>
+                <input type="text" id="txtUf" name="txtUF" placeholder="Digite a unidade federativa"  required>
+                <br>
+
+                <br>
+                <label for="email">E-mail</label>
+                <input type="text" id="txtEmail" name="txtEmail" placeholder="Digite seu Email" required>
+                <br>
+
+                <br>
+                <label for="fone">Telefone</label>
+                <input type="text" id=" txtFone " name="txtFone" placeholder="(99)99999-9999" required>
+                <br>
+
+                <div class="enviar">
+                    <input type="button" id="enviar" name="btnEnviar" value="Salvar" tabindex="7">
+                    <input type="button" id="listar" name="btnListar" value="Listar">
+                    <input type="reset" id="limpar" name="btnLimpar" value="limpar Formulário" tabindex="8">
+
+                </div>
+
+            </form>
+            </div>
+
+        </section>
+    </section>
+
+</body>
+
+</html>
